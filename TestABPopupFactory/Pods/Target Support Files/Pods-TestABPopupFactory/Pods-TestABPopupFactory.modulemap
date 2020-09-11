@@ -1,0 +1,6 @@
+framework module Pods_TestABPopupFactory {
+  umbrella header "Pods-TestABPopupFactory-umbrella.h"
+
+  export *
+  module * { export * }
+}

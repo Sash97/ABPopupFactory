@@ -49,14 +49,13 @@ public class ABPopupView: UIView {
    
     
     //MARK: - Init -
-    
-  
-    override init(frame: CGRect) {
+   
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         self.setupView()
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         super.init(coder: coder)
         self.setupView()
     }
