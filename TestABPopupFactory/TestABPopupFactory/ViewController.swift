@@ -11,12 +11,12 @@ import ABPopupFactory
 
 class ViewController: UIViewController {
 
-    let popup = ABPopupView()
+   let popup = ABPopupView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.view.addSubview(self.popup)
+     
     }
 
 
