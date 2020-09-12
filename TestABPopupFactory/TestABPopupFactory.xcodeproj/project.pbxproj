@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F9459FC0E4E5FF1FA089B63 /* Pods_TestABPopupFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5454844C16FB624ABE58EA72 /* Pods_TestABPopupFactory.framework */; };
 		1CB76FF7250BA6FC0027F41C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB76FF6250BA6FC0027F41C /* AppDelegate.swift */; };
 		1CB76FF9250BA6FC0027F41C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB76FF8250BA6FC0027F41C /* SceneDelegate.swift */; };
 		1CB76FFB250BA6FC0027F41C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB76FFA250BA6FC0027F41C /* ViewController.swift */; };
 		1CB76FFE250BA6FC0027F41C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB76FFC250BA6FC0027F41C /* Main.storyboard */; };
 		1CB77000250BA6FD0027F41C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB76FFF250BA6FD0027F41C /* Assets.xcassets */; };
 		1CB77003250BA6FD0027F41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB77001250BA6FD0027F41C /* LaunchScreen.storyboard */; };
+		427E9A0D549D09F4AAEA8234 /* Pods_TestABPopupFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1524A925D342A20E65E51428 /* Pods_TestABPopupFactory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		036ABE7A5F9670B16354B764 /* Pods-TestABPopupFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestABPopupFactory.debug.xcconfig"; path = "Target Support Files/Pods-TestABPopupFactory/Pods-TestABPopupFactory.debug.xcconfig"; sourceTree = "<group>"; };
+		05D9906903EE08F3021865B6 /* Pods-TestABPopupFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestABPopupFactory.debug.xcconfig"; path = "Target Support Files/Pods-TestABPopupFactory/Pods-TestABPopupFactory.debug.xcconfig"; sourceTree = "<group>"; };
+		1524A925D342A20E65E51428 /* Pods_TestABPopupFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestABPopupFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB76FF3250BA6FC0027F41C /* TestABPopupFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestABPopupFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB76FF6250BA6FC0027F41C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CB76FF8250BA6FC0027F41C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +27,7 @@
 		1CB76FFF250BA6FD0027F41C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CB77002250BA6FD0027F41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CB77004250BA6FD0027F41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5454844C16FB624ABE58EA72 /* Pods_TestABPopupFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestABPopupFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBAEAF42D6F67DC571713030 /* Pods-TestABPopupFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestABPopupFactory.release.xcconfig"; path = "Target Support Files/Pods-TestABPopupFactory/Pods-TestABPopupFactory.release.xcconfig"; sourceTree = "<group>"; };
+		320F9806F232F0DDC7CE6B90 /* Pods-TestABPopupFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestABPopupFactory.release.xcconfig"; path = "Target Support Files/Pods-TestABPopupFactory/Pods-TestABPopupFactory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,20 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F9459FC0E4E5FF1FA089B63 /* Pods_TestABPopupFactory.framework in Frameworks */,
+				427E9A0D549D09F4AAEA8234 /* Pods_TestABPopupFactory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15E90C1C08D52180F2E4BF2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1524A925D342A20E65E51428 /* Pods_TestABPopupFactory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1CB76FEA250BA6FB0027F41C = {
 			isa = PBXGroup;
 			children = (
 				1CB76FF5250BA6FC0027F41C /* TestABPopupFactory */,
 				1CB76FF4250BA6FC0027F41C /* Products */,
 				7CFE698062472EB9220BD521 /* Pods */,
-				5D0797212D3414C3FCC836D8 /* Frameworks */,
+				15E90C1C08D52180F2E4BF2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,19 +82,11 @@
 			path = TestABPopupFactory;
 			sourceTree = "<group>";
 		};
-		5D0797212D3414C3FCC836D8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5454844C16FB624ABE58EA72 /* Pods_TestABPopupFactory.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7CFE698062472EB9220BD521 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				036ABE7A5F9670B16354B764 /* Pods-TestABPopupFactory.debug.xcconfig */,
-				CBAEAF42D6F67DC571713030 /* Pods-TestABPopupFactory.release.xcconfig */,
+				05D9906903EE08F3021865B6 /* Pods-TestABPopupFactory.debug.xcconfig */,
+				320F9806F232F0DDC7CE6B90 /* Pods-TestABPopupFactory.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -98,11 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CB77007250BA6FD0027F41C /* Build configuration list for PBXNativeTarget "TestABPopupFactory" */;
 			buildPhases = (
-				2875B10BA7F000D9780BD63B /* [CP] Check Pods Manifest.lock */,
+				32BAC94A55F9FB9959BAC049 /* [CP] Check Pods Manifest.lock */,
 				1CB76FEF250BA6FC0027F41C /* Sources */,
 				1CB76FF0250BA6FC0027F41C /* Frameworks */,
 				1CB76FF1250BA6FC0027F41C /* Resources */,
-				A56ED4BB8D96AF90862DFC1A /* [CP] Embed Pods Frameworks */,
+				F54A7B6532917BA654B3F207 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,7 +160,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2875B10BA7F000D9780BD63B /* [CP] Check Pods Manifest.lock */ = {
+		32BAC94A55F9FB9959BAC049 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -182,7 +182,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A56ED4BB8D96AF90862DFC1A /* [CP] Embed Pods Frameworks */ = {
+		F54A7B6532917BA654B3F207 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,7 +350,7 @@
 		};
 		1CB77008250BA6FD0027F41C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 036ABE7A5F9670B16354B764 /* Pods-TestABPopupFactory.debug.xcconfig */;
+			baseConfigurationReference = 05D9906903EE08F3021865B6 /* Pods-TestABPopupFactory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,7 +369,7 @@
 		};
 		1CB77009250BA6FD0027F41C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBAEAF42D6F67DC571713030 /* Pods-TestABPopupFactory.release.xcconfig */;
+			baseConfigurationReference = 320F9806F232F0DDC7CE6B90 /* Pods-TestABPopupFactory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

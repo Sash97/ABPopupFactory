@@ -130,25 +130,25 @@ public class ABPopupView: UIView {
     }
     
     private func loadViewFromXib() -> UIView {
-//        let bundle = Bundle(for: type(of: self))
+        let bundle = Bundle(for: type(of: self))
 //        let bundle = Bundle(for: ABPopupFactory.self)
-//        let nib = UINib(nibName: "ABPopupView", bundle: bundle)
-//        return nib.instantiate(withOwner: self, options: nil).first! as! UIView
+        let nib = UINib(nibName: "ABPopupView", bundle: bundle)
+        return nib.instantiate(withOwner: self, options: nil).first! as! UIView
         
         
-       let podBundle = Bundle(for: ABPopupView.self)
-       if let bundleURL = podBundle.url(forResource: "ABPopupFactory", withExtension: "bundle") {
-           if let bundle = Bundle(url: bundleURL) {
-               let nib = UINib(nibName: "ABPopupView", bundle: bundle)
-               return nib.instantiate(withOwner: self, options: nil).first! as! UIView
-           } else {
-               assertionFailure("Could not load the bundle")
-           }
-       } else {
-           assertionFailure("Could not create a path to the bundle")
-       }
-
-        return UIView()
+//       let podBundle = Bundle(for: ABPopupView.self)
+//       if let bundleURL = podBundle.url(forResource: "ABPopupFactory", withExtension: "bundle") {
+//           if let bundle = Bundle(url: bundleURL) {
+//               let nib = UINib(nibName: "ABPopupView", bundle: bundle)
+//               return nib.instantiate(withOwner: self, options: nil).first! as! UIView
+//           } else {
+//               assertionFailure("Could not load the bundle")
+//           }
+//       } else {
+//           assertionFailure("Could not create a path to the bundle")
+//       }
+//
+//        return UIView()
     }
     
     private func configureSubviewsDesign() {
