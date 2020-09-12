@@ -1,0 +1,16 @@
+PODS:
+  - ABPopupFactory (1.0.0)
+
+DEPENDENCIES:
+  - ABPopupFactory (from `../ABPopupFactory/`)
+
+EXTERNAL SOURCES:
+  ABPopupFactory:
+    :path: "../ABPopupFactory/"
+
+SPEC CHECKSUMS:
+  ABPopupFactory: f33e7c7c5f5997c2e028b9bcaeb9384f98699907
+
+PODFILE CHECKSUM: 41609e4f2194755d4ecba739eeb01e435e7484e2
+
+COCOAPODS: 1.8.4

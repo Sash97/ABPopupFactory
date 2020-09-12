@@ -1,0 +1,6 @@
+framework module ABPopupFactory {
+  umbrella header "ABPopupFactory-umbrella.h"
+
+  export *
+  module * { export * }
+}
