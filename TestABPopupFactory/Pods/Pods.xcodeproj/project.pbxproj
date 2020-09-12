@@ -8,19 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		445C8E9C3D3CF6A9F14D04E26811AE9D /* ABPopupFactory.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F17E90C3D6880A81AC57F26DD4EF209 /* ABPopupFactory.bundle */; };
+		5F6E093F67772B092052ECD11EB6CEA0 /* ABPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6375C7636E9F1D2CE21654979DC34B /* ABPopupView.xib */; };
 		628371AE1E914A2C40E239313CA5B5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6FF68F0F5EC16F8B6344EE500CE4514C /* Pods-TestABPopupFactory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D1FFF7B8C8FE72B015D7577607507E /* Pods-TestABPopupFactory-dummy.m */; };
-		742A00F854CBF8525CDF0E27B2841F7D /* ABPopupFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48FDD6CDA88B3BA26E01362DF18827E /* ABPopupFactory.swift */; };
-		898526CA1ACB3198AAFB9E98EC3D23D4 /* ABPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF6A3D54F4B841D0548D01526BF8559 /* ABPopupView.swift */; };
-		956056EDA480521BC5BD7DABC47D2279 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C14D6014264CBBAC142A97EB4300C4 /* Messages.swift */; };
-		A2639893EA54E17AD077E57688D65A26 /* ABPopupView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 279963796290E3E78FBFE390B92D39C0 /* ABPopupView.xib */; };
+		742A00F854CBF8525CDF0E27B2841F7D /* ABPopupFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4021C15DC0A58499E492BD3FFC2FE524 /* ABPopupFactory.swift */; };
+		898526CA1ACB3198AAFB9E98EC3D23D4 /* ABPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583CB6DF30CDD4174FF06F3200308AB /* ABPopupView.swift */; };
+		94DA26E10EC5BAE7E412689035C2D66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E266476CB75B7F441019B8E4C755CB8E /* Assets.xcassets */; };
+		956056EDA480521BC5BD7DABC47D2279 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD62CEB2C050E16E1617D2279117FC13 /* Messages.swift */; };
+		A2639893EA54E17AD077E57688D65A26 /* ABPopupView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4D6375C7636E9F1D2CE21654979DC34B /* ABPopupView.xib */; };
 		A302FB0BC78B74170649DFE9258F834E /* Pods-TestABPopupFactory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA524FB43D07D098066AE6DC7E2C8EB /* Pods-TestABPopupFactory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B340400473A6F73BE69211A2AFBBDA02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C0DD86E03BAC04791E68CD922C03EC47 /* ABPopupFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D346A3310A2BBD02DB3CA24E87EDED7D /* ABPopupFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C21328A0A840FA4A7F89C135C40B943F /* ABPopupFactory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D765AF2E7A6A91D69797A9E32C1E38 /* ABPopupFactory-dummy.m */; };
-		CC89F36E84B2FBEF6717CAF3AB46F3BA /* View + Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F03D6E776C5F116CFD12544065F6C5 /* View + Layout.swift */; };
-		D3E92F7C6A69A2345F1DBC9657935124 /* ABPopupFactory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D3D27C69CD437DAE10EA49BCA1BC59 /* ABPopupFactory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA06F8F9DFEFEEE6943E7C5DC49E8087 /* ABPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279963796290E3E78FBFE390B92D39C0 /* ABPopupView.xib */; };
+		C0DD86E03BAC04791E68CD922C03EC47 /* ABPopupFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D169BAA71EFEDD10304450620F817DE /* ABPopupFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C21328A0A840FA4A7F89C135C40B943F /* ABPopupFactory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96023E6B8BF999C33776AC13A4DFC15E /* ABPopupFactory-dummy.m */; };
+		CC89F36E84B2FBEF6717CAF3AB46F3BA /* View + Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14437076FC1868F8BE9037D199403EF /* View + Layout.swift */; };
+		D3E92F7C6A69A2345F1DBC9657935124 /* ABPopupFactory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D48358118D6B9CFD7B5209A9BD79BD /* ABPopupFactory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,34 +42,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09D3D27C69CD437DAE10EA49BCA1BC59 /* ABPopupFactory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABPopupFactory-umbrella.h"; sourceTree = "<group>"; };
-		21D765AF2E7A6A91D69797A9E32C1E38 /* ABPopupFactory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABPopupFactory-dummy.m"; sourceTree = "<group>"; };
-		279963796290E3E78FBFE390B92D39C0 /* ABPopupView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ABPopupView.xib; path = ABPopupFactory/ABPopupView.xib; sourceTree = "<group>"; };
+		02BA1B9EFE331AE73C721D429629D94B /* ABPopupFactory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ABPopupFactory.modulemap; sourceTree = "<group>"; };
+		0583CB6DF30CDD4174FF06F3200308AB /* ABPopupView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABPopupView.swift; path = ABPopupFactory/ABPopupView.swift; sourceTree = "<group>"; };
+		13D48358118D6B9CFD7B5209A9BD79BD /* ABPopupFactory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABPopupFactory-umbrella.h"; sourceTree = "<group>"; };
+		1B190AD15404D71BD5BA037F41D6AC01 /* ABPopupFactory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABPopupFactory-prefix.pch"; sourceTree = "<group>"; };
 		2F17E90C3D6880A81AC57F26DD4EF209 /* ABPopupFactory.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ABPopupFactory.bundle; path = "ABPopupFactory-ABPopupFactory.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FF2AAE8DA5473F61D1B2ECC6FC1697 /* Pods_TestABPopupFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestABPopupFactory.framework; path = "Pods-TestABPopupFactory.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32A1F69A8437248571519BB5E10555C1 /* ABPopupFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ABPopupFactory.framework; path = ABPopupFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33F680DD18848C88527476534F4FA9A3 /* ABPopupFactory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABPopupFactory-prefix.pch"; sourceTree = "<group>"; };
-		39F03D6E776C5F116CFD12544065F6C5 /* View + Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View + Layout.swift"; path = "ABPopupFactory/View + Layout.swift"; sourceTree = "<group>"; };
-		4F7E3AE1A6F66DA77BC8B019B2DF9B65 /* ABPopupFactory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ABPopupFactory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4021C15DC0A58499E492BD3FFC2FE524 /* ABPopupFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABPopupFactory.swift; path = ABPopupFactory/ABPopupFactory.swift; sourceTree = "<group>"; };
+		4D169BAA71EFEDD10304450620F817DE /* ABPopupFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABPopupFactory.h; path = ABPopupFactory/ABPopupFactory.h; sourceTree = "<group>"; };
+		4D6375C7636E9F1D2CE21654979DC34B /* ABPopupView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ABPopupView.xib; path = ABPopupFactory/ABPopupView.xib; sourceTree = "<group>"; };
+		5B44455E46FE4E3FE79CE28D94627ED8 /* ABPopupFactory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ABPopupFactory-Info.plist"; sourceTree = "<group>"; };
 		61F922419B40D64F13938395BE3F55A4 /* Pods-TestABPopupFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestABPopupFactory.debug.xcconfig"; sourceTree = "<group>"; };
+		6C45EDA06E1F2D8493180904AE7564CE /* ABPopupFactory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABPopupFactory.xcconfig; sourceTree = "<group>"; };
 		78B3C28D965D5D4EC45CB3DAAF68673F /* Pods-TestABPopupFactory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestABPopupFactory-Info.plist"; sourceTree = "<group>"; };
 		7AA524FB43D07D098066AE6DC7E2C8EB /* Pods-TestABPopupFactory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestABPopupFactory-umbrella.h"; sourceTree = "<group>"; };
-		8DCE136DC91C91A1291C55262EF2FF68 /* ResourceBundle-ABPopupFactory-ABPopupFactory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ABPopupFactory-ABPopupFactory-Info.plist"; sourceTree = "<group>"; };
+		96023E6B8BF999C33776AC13A4DFC15E /* ABPopupFactory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABPopupFactory-dummy.m"; sourceTree = "<group>"; };
 		98D1FFF7B8C8FE72B015D7577607507E /* Pods-TestABPopupFactory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestABPopupFactory-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A543BA0D6D8073406F64D49F7095C39B /* ABPopupFactory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ABPopupFactory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B7F8051C2CD2B540DC7F9D7D1802BE7B /* Pods-TestABPopupFactory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestABPopupFactory.modulemap"; sourceTree = "<group>"; };
-		C4C14D6014264CBBAC142A97EB4300C4 /* Messages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Messages.swift; path = ABPopupFactory/Messages.swift; sourceTree = "<group>"; };
-		D1A0E7274E160EAE9FA671B882CC8821 /* ABPopupFactory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABPopupFactory.xcconfig; sourceTree = "<group>"; };
-		D346A3310A2BBD02DB3CA24E87EDED7D /* ABPopupFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABPopupFactory.h; path = ABPopupFactory/ABPopupFactory.h; sourceTree = "<group>"; };
+		C14437076FC1868F8BE9037D199403EF /* View + Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View + Layout.swift"; path = "ABPopupFactory/View + Layout.swift"; sourceTree = "<group>"; };
+		DD62CEB2C050E16E1617D2279117FC13 /* Messages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Messages.swift; path = ABPopupFactory/Messages.swift; sourceTree = "<group>"; };
 		E0785E917F65E9FD82460F080BFE6BBD /* Pods-TestABPopupFactory-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestABPopupFactory-acknowledgements.plist"; sourceTree = "<group>"; };
-		E48FDD6CDA88B3BA26E01362DF18827E /* ABPopupFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABPopupFactory.swift; path = ABPopupFactory/ABPopupFactory.swift; sourceTree = "<group>"; };
+		E266476CB75B7F441019B8E4C755CB8E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ABPopupFactory/Assets.xcassets; sourceTree = "<group>"; };
 		E59EDD2EF78C2FFD0D8162B02DEBEA4F /* Pods-TestABPopupFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestABPopupFactory.release.xcconfig"; sourceTree = "<group>"; };
-		E98C2FC8F5C08CF60761739D0353118E /* ABPopupFactory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ABPopupFactory-Info.plist"; sourceTree = "<group>"; };
-		F4D808DE3943C36CD1C42088B5E91F97 /* ABPopupFactory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ABPopupFactory.modulemap; sourceTree = "<group>"; };
+		E96606AD8A116BE9A898C65A486A1791 /* ResourceBundle-ABPopupFactory-ABPopupFactory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ABPopupFactory-ABPopupFactory-Info.plist"; sourceTree = "<group>"; };
 		F90A1279D8B20187F0BE1C3C98C4C71C /* Pods-TestABPopupFactory-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestABPopupFactory-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FBEF6075791579D7DD194DBC8CD9B103 /* Pods-TestABPopupFactory-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestABPopupFactory-frameworks.sh"; sourceTree = "<group>"; };
-		FEF6A3D54F4B841D0548D01526BF8559 /* ABPopupView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABPopupView.swift; path = ABPopupFactory/ABPopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,27 +108,52 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		32EF8F88D8FB5B7146269CD0424BDF2A /* ABPopupFactory */ = {
+			isa = PBXGroup;
+			children = (
+				4D169BAA71EFEDD10304450620F817DE /* ABPopupFactory.h */,
+				4021C15DC0A58499E492BD3FFC2FE524 /* ABPopupFactory.swift */,
+				0583CB6DF30CDD4174FF06F3200308AB /* ABPopupView.swift */,
+				4D6375C7636E9F1D2CE21654979DC34B /* ABPopupView.xib */,
+				DD62CEB2C050E16E1617D2279117FC13 /* Messages.swift */,
+				C14437076FC1868F8BE9037D199403EF /* View + Layout.swift */,
+				A471D0D36F0BAEB873BF90B990ABF4DB /* Pod */,
+				502855E4E98F3876493A2FEF6B1F9802 /* Resources */,
+				33B3B8F4413DCA363076AE0486BD653B /* Support Files */,
+			);
+			name = ABPopupFactory;
+			path = ../../ABPopupFactory;
+			sourceTree = "<group>";
+		};
+		33B3B8F4413DCA363076AE0486BD653B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02BA1B9EFE331AE73C721D429629D94B /* ABPopupFactory.modulemap */,
+				6C45EDA06E1F2D8493180904AE7564CE /* ABPopupFactory.xcconfig */,
+				96023E6B8BF999C33776AC13A4DFC15E /* ABPopupFactory-dummy.m */,
+				5B44455E46FE4E3FE79CE28D94627ED8 /* ABPopupFactory-Info.plist */,
+				1B190AD15404D71BD5BA037F41D6AC01 /* ABPopupFactory-prefix.pch */,
+				13D48358118D6B9CFD7B5209A9BD79BD /* ABPopupFactory-umbrella.h */,
+				E96606AD8A116BE9A898C65A486A1791 /* ResourceBundle-ABPopupFactory-ABPopupFactory-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../TestABPopupFactory/Pods/Target Support Files/ABPopupFactory";
+			sourceTree = "<group>";
+		};
 		3B1D601885A82D15D598C0744B9E35C5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BBB99C714F7D88BB0C742135FA1883EF /* ABPopupFactory */,
+				32EF8F88D8FB5B7146269CD0424BDF2A /* ABPopupFactory */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		444B01D10B2908B5F945F3BF41D719DA /* Resources */ = {
+		502855E4E98F3876493A2FEF6B1F9802 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E266476CB75B7F441019B8E4C755CB8E /* Assets.xcassets */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		701542119F2B2A674915CDC14FB0F71D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4F7E3AE1A6F66DA77BC8B019B2DF9B65 /* ABPopupFactory.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8B4897D3D4330FACCA48C1218BA17B92 /* Products */ = {
@@ -139,36 +166,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBB99C714F7D88BB0C742135FA1883EF /* ABPopupFactory */ = {
+		A471D0D36F0BAEB873BF90B990ABF4DB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D346A3310A2BBD02DB3CA24E87EDED7D /* ABPopupFactory.h */,
-				E48FDD6CDA88B3BA26E01362DF18827E /* ABPopupFactory.swift */,
-				FEF6A3D54F4B841D0548D01526BF8559 /* ABPopupView.swift */,
-				279963796290E3E78FBFE390B92D39C0 /* ABPopupView.xib */,
-				C4C14D6014264CBBAC142A97EB4300C4 /* Messages.swift */,
-				39F03D6E776C5F116CFD12544065F6C5 /* View + Layout.swift */,
-				701542119F2B2A674915CDC14FB0F71D /* Pod */,
-				444B01D10B2908B5F945F3BF41D719DA /* Resources */,
-				BC781C10E9596B0BF2F325B5F192D896 /* Support Files */,
+				A543BA0D6D8073406F64D49F7095C39B /* ABPopupFactory.podspec */,
 			);
-			name = ABPopupFactory;
-			path = ../../ABPopupFactory;
-			sourceTree = "<group>";
-		};
-		BC781C10E9596B0BF2F325B5F192D896 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F4D808DE3943C36CD1C42088B5E91F97 /* ABPopupFactory.modulemap */,
-				D1A0E7274E160EAE9FA671B882CC8821 /* ABPopupFactory.xcconfig */,
-				21D765AF2E7A6A91D69797A9E32C1E38 /* ABPopupFactory-dummy.m */,
-				E98C2FC8F5C08CF60761739D0353118E /* ABPopupFactory-Info.plist */,
-				33F680DD18848C88527476534F4FA9A3 /* ABPopupFactory-prefix.pch */,
-				09D3D27C69CD437DAE10EA49BCA1BC59 /* ABPopupFactory-umbrella.h */,
-				8DCE136DC91C91A1291C55262EF2FF68 /* ResourceBundle-ABPopupFactory-ABPopupFactory-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../TestABPopupFactory/Pods/Target Support Files/ABPopupFactory";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -263,7 +266,7 @@
 			buildPhases = (
 				7F38E4745DA2E84ED1492B8B35721219 /* Sources */,
 				3616E5F5FA447AF57E0EDD6C388DC459 /* Frameworks */,
-				3918F7314D4E9AAB969F11F775DB1B24 /* Resources */,
+				50ECF6B329C1C808506D46285C198E2F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -331,11 +334,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3918F7314D4E9AAB969F11F775DB1B24 /* Resources */ = {
+		50ECF6B329C1C808506D46285C198E2F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA06F8F9DFEFEEE6943E7C5DC49E8087 /* ABPopupView.xib in Resources */,
+				5F6E093F67772B092052ECD11EB6CEA0 /* ABPopupView.xib in Resources */,
+				94DA26E10EC5BAE7E412689035C2D66B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +465,7 @@
 		};
 		35F6A7591CBB25CB7F20C2E7C0A4DE93 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1A0E7274E160EAE9FA671B882CC8821 /* ABPopupFactory.xcconfig */;
+			baseConfigurationReference = 6C45EDA06E1F2D8493180904AE7564CE /* ABPopupFactory.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABPopupFactory";
@@ -516,7 +520,7 @@
 		};
 		6B192DBE2B4944050AD68F32FD8DD2B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1A0E7274E160EAE9FA671B882CC8821 /* ABPopupFactory.xcconfig */;
+			baseConfigurationReference = 6C45EDA06E1F2D8493180904AE7564CE /* ABPopupFactory.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -612,7 +616,7 @@
 		};
 		887A5F7427D1C1011DB55EEA76394D2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1A0E7274E160EAE9FA671B882CC8821 /* ABPopupFactory.xcconfig */;
+			baseConfigurationReference = 6C45EDA06E1F2D8493180904AE7564CE /* ABPopupFactory.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -649,7 +653,7 @@
 		};
 		9A75B6ACDB9A6B423141AE83A40311C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1A0E7274E160EAE9FA671B882CC8821 /* ABPopupFactory.xcconfig */;
+			baseConfigurationReference = 6C45EDA06E1F2D8493180904AE7564CE /* ABPopupFactory.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABPopupFactory";

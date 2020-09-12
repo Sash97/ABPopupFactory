@@ -17,10 +17,10 @@
     "tag": "1.0.0"
   },
   "swift_versions": "5.0",
-  "source_files": "ABPopupFactory/**/*.{swift,c,h,m,xib}",
+  "source_files": "ABPopupFactory/**/*.{swift,c,h,m,xib,xcassets}",
   "resource_bundles": {
     "ABPopupFactory": [
-      "ABPopupFactory/**/*.xib"
+      "ABPopupFactory/**/*.{xib,xcassets}"
     ]
   },
   "swift_version": "5.0"

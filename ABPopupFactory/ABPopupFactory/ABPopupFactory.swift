@@ -25,7 +25,7 @@ public class ABPopupFactory {
     
     //MARK: - Methods -
     
-    public func showPopup(in view: UIView?, message: Messages, image: UIImage = #imageLiteral(resourceName: "Снимок экрана 2020-09-12 в 12.01.17"), buttonTitles: String, completion: ((Int)->())? = nil) {
+    public func showPopup(in view: UIView?, message: Messages, image: UIImage = UIImage(podAssetName: "wellDone")!, buttonTitles: String, completion: ((Int)->())? = nil) {
         guard let view = view else { return }
         let blackView   = self.createBlackView(under: view)
         let popup = self.createPopup(message: message, image: image, buttonTitles: buttonTitles)
@@ -81,8 +81,8 @@ public class ABPopupFactory {
 fileprivate typealias PopupAnimateParapms = (alpha: CGFloat, transform: CGAffineTransform)
 
 
-extension UIImage {
-   convenience init?(podAssetName: String) {
+public extension UIImage {
+    convenience init?(podAssetName: String) {
        let podBundle = Bundle(for: ABPopupView.self)
       
        /// A given class within your Pod framework
