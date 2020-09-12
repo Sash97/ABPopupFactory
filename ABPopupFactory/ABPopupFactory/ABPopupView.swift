@@ -137,7 +137,7 @@ public class ABPopupView: UIView {
         
         
        let podBundle = Bundle(for: ABPopupView.self)
-       if let bundleURL = podBundle.url(forResource: "ABPopupView", withExtension: "bundle") {
+       if let bundleURL = podBundle.url(forResource: "ABPopupFactory", withExtension: "bundle") {
            if let bundle = Bundle(url: bundleURL) {
                let nib = UINib(nibName: "ABPopupView", bundle: bundle)
                return nib.instantiate(withOwner: self, options: nil).first! as! UIView
@@ -147,7 +147,7 @@ public class ABPopupView: UIView {
        } else {
            assertionFailure("Could not create a path to the bundle")
        }
-        
+
         return UIView()
     }
     
