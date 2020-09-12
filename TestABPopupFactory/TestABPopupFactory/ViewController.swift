@@ -11,11 +11,11 @@ import ABPopupFactory
 
 class ViewController: UIViewController {
 
-   let popup = ABPopupView()
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addSubview(self.popup)
+        ABPopupFactory.shared.showPopup(in: self.view, message: .message(message: "dsd"), buttonTitles: "OK")
      
     }
 

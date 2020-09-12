@@ -9,6 +9,11 @@ Pod::Spec.new do |spec|
   spec.social_media_url   = "https://www.facebook.com/bagdasaryan22"
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/Sash97/ABPopupFactory.git", :tag => "1.0.0" }
-  spec.source_files  = "ABPopupFactory/**/*.{swift,c,h,m,xib}"
+  
   spec.swift_versions = "5.0"
+  spec.source_files = 'ABPopupFactory/**/*.{swift,c,h,m}'
+  spec.resource_bundles = {
+    'ABPopupFactory' => ['ABPopupFactory/**/*.{xib}']
+  }
+ 
 end

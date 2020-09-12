@@ -9,6 +9,11 @@
 import UIKit
 
 
+/*
+ Blah
+ */
+
+
 
 public class ABPopupView: UIView {
     //MARK - Outlets -
@@ -126,7 +131,7 @@ public class ABPopupView: UIView {
     
     private func loadViewFromXib() -> UIView {
 //        let bundle = Bundle(for: type(of: self))
-        let bundle = Bundle(for: ABPopupView.self)
+        let bundle = Bundle(for: ABPopupFactory.self)
         let nib = UINib(nibName: "ABPopupView", bundle: bundle)
         return nib.instantiate(withOwner: self, options: nil).first! as! UIView
     }
